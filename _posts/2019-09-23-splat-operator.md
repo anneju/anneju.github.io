@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ruby 世界裡的符號（Symbol）是什麼？它跟字串又有什麼不同？
+title: Ruby參數中的星號*splat operator (*)
 date: 2019-09-23
 Author: Anne Ju
 tags: [Ruby, splat]
@@ -8,8 +8,6 @@ comments: true
 toc: true
 pinned: true
 ---
-
-# Ruby參數中的星號*splat operator (*)
 
 先講總結：
 

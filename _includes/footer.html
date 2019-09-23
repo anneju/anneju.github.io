@@ -3,3 +3,12 @@
 {% if site.footer-text %}
 <p>{{ site.footer-text }}</p>
 {% endif %}
+
+<script>
+  var pres = document.getElementsByTagName("pre");
+  for (var i = 0; i < pres.length; i++) {
+    var pre = pres[i];
+    pre.className = pre.className + " line-numbers";
+  }
+
+</script>

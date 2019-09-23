@@ -216,7 +216,8 @@ td, th {
 
 tbody tr:nth-child(odd) td,
 tbody tr:nth-child(odd) th {
-  background-color: $table-background-color;
+  background-color: #1f1f1e;
+  color: beige;
 }
 
 // Blockquote
@@ -323,7 +324,8 @@ img {
   width: 30%;
 	-webkit-background-size: cover;
 	background-size: cover;
-	background-color: $background-color;
+  // background-color: $background-color;
+  background-color: #fadfe0;
 	height: 100%;
 	top: 0;
 	left:0;
@@ -673,8 +675,9 @@ nav {
 // Footer
 .wrapper-footer-desktop {
   margin-top: 50px;
-  border-top: 1px solid $footer-border-color;
-  background-color: $footer-background-color;
+  border-top: 1px solid #fec8c8;
+  // background-color: $footer-background-color;
+  background-color: #fec8c8;
   position: absolute;
   clear:both;
   width:100%;
@@ -744,7 +747,7 @@ footer {
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
-@import "highlights";
+// @import "highlights";
 @import "gitalk";
-
+@import "monokai";
 

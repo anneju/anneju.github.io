@@ -20,10 +20,10 @@
 
 title: Your awesome title
 email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+# description: >- # this means to ignore newlines until "baseurl:"
+#   Write an awesome description for your new site here. You can edit this
+#   line in _config.yml. It will appear in your document head meta (for
+#   Google search results) and in your feed.xml site description.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
@@ -61,16 +61,16 @@ plugins:
 # # 你的博客名称，请用你想要的博客名替换“LOFFER”，以下修改都可类似处理
 # # 注意，“name: LOFFER”，冒号后面的空格不可以省略。
 # # 井号后面的文字是说明文档，不会被程序读取。
-name: LOFFER
+name: Anne's tech note
 # # 描述/签名
-description: 一个可以fork的博客
+description: 就是我的筆記啦！
 
 # #
 # # 下面的设定都是可选的
 # #
 
 # # 你的博客logo图片URL，建议尺寸不超过300px × 300px
-avatar: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/logo.png
+avatar: /images/avatar.png 
 
 # # 你的favicon（出现在浏览器tab上）图片URL，建议使用较小(64px × 64px)的图片
 favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/favicon.png
@@ -78,14 +78,14 @@ favicon: https://raw.githubusercontent.com/FromEndWorld/LOFFER/master/images/fav
 
 # # 菜单中的按钮
 navigation:
-  - name: 首页
+  - name: 首頁
     url: /
-  - name: 关于
+  - name: 關於我
     url: /about
-  - name: 归档
-    url: /archive
-  - name: 标签
-    url: /tags
+  # - name: 
+  #   url: /archive
+  # - name: 标签
+  #   url: /tags
 
 # 每页的文章数
 paginate: 8
@@ -98,11 +98,11 @@ footer-links:
   weibo: #frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
-  email: #fromendworld@outlook.com 
-  facebook: #https://www.facebook.com/<>
+  email: anneju.824@gmail.com 
+  facebook: https://www.facebook.com/anneju.824
   flickr: #https://www.flickr.com/<>
-  github: #FromEndWorld/loffer #https://github.com/<>
-  instagram: #https://instagram.com/<>
+  github: https://github.com/AnneJu
+  instagram: https://www.instagram.com/anneju.824/
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
   rss: #随便填点啥RSS就能用了
@@ -112,7 +112,7 @@ footer-links:
   youtube: # channel/<your_long_string> or user/<user-name>
 
 # # 站点页脚的文字
-footer-text: Copyright (c) 2019 来自中世界
+footer-text: Copyright 2019 by Anne Ju
 
 # # 评论，注意，请不要同时添加多种不同的评论区
 
@@ -147,7 +147,7 @@ paginate_path: /page:num/
 
 # # The release of Jekyll Now that you're using
 # version: v1.2.0
-
+markdown: Kramdown
 # # Jekyll 3 now only supports Kramdown for Markdown
 kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks

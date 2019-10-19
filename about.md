@@ -4,7 +4,7 @@ title: 關於我
 permalink: /about/
 ---
 
-#### 曾為萬惡的人力資源的成員，現在朝著工程師之路前進。
+#### 曾為HR，現在朝著工程師之路前進。
 
 2019.7 - 2019.10    5xRuby Full Stack Web Develoer Bootcamp
 

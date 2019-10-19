@@ -98,11 +98,11 @@ footer-links:
   weibo: #frommidworld #请输入你的微博个性域名 https://www.weibo.com/<thispart>
   behance: # https://www.behance.net/<>
   dribbble: # https://dribbble.com/<>
-  email: anneju.824@gmail.com 
-  facebook: https://www.facebook.com/anneju.824
+  email: anneju.824@gmail.com<>
+  facebook: https://www.facebook.com/anneju.824<>
   flickr: #https://www.flickr.com/<>
   github: https://github.com/AnneJu
-  instagram: https://www.instagram.com/anneju.824/
+  instagram: https://www.instagram.com/anneju.824/<>
   linkedin: #https://www.linkedin.com/in/<>
   pinterest: #https://www.pinterest.com/<>
   rss: #随便填点啥RSS就能用了
@@ -153,7 +153,7 @@ kramdown:
   # Use GitHub flavored markdown, including triple backtick fenced code blocks
   input: GFM
   # Jekyll 3 and GitHub Pages now only support rouge for syntax highlighting
-  syntax_highlighter: rouge
+  syntax_highlighter: 
   syntax_highlighter_opts:
     # Use existing pygments syntax highlighting css
     css_class: 'highlight'
